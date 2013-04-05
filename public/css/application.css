@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    margin-right: 0px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#siteInnerPadding{
+    margin: 0px 10px 100px; 
+    padding: 5px 10px 100px;
+}
+
+.wrapper{
+    min-height: 100%;
+    width: 1000px;
+    height: auto !important;
+    margin: 0 auto 10px;
+    background-color: #ffffff;
+    border-left: 1px #d4d4d4 solid;
+    border-right: 1px #d4d4d4 solid;
+    border-bottom: 1px #d4d4d4 solid;
+    border-top: 0;
+}
+
+/*  
+    General TEMPLATE and HOMEPAGE related CSS
+*/
+
+#siteHeaderGlobal{
+    margin: 0;
+    left: 0;
+    height: 84px;
+    width: 100%;
+    position: absolute;
+    background: url('/images/Banner.png');
+    z-index: -1;
+}
+
+#siteHeaderSized{
+    background: url('/images/Banner.png');
+    width:1002px;
+    height: 84px;
+    margin-left: -1px;
+
+}
+
+
+#siteBannerDiv {
+    position: relative;
+    width: 200px;
+    float:left;
+    height: 84px;
+    background: url('/images/logoSprites.png');
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+#homepageContentDiv{
+    overflow: hidden;
+    width: 100%;
+
+}
+
+#siteTemplate{
+    width: 1000px;
+    margin: 0 auto 50px;
+ /*   border: 2px #d4d4d4 solid;*/
+}
+
+h1.footerH1{
+    font-style: bold;
+    font-family: "arial,helvetica,clean,sans-serif";
+    color: #647A8E;
+    
+}
+
+
+hr{
+    color: #ffffff;
+    background-color: #d4d4d4;
+    height: 1px;
+    width: 100%;
+    border: 0 none;
+}
+
+h2{
+    font-style: bold;
+    font-family: "arial,helvetica,clean,sans-serif";
+    color: #647A8E;
+}
+
+h3{
+    font-style: bold;
+    font-family: "arial,helvetica,clean,sans-serif";
+    color: #647A8E;
+}
